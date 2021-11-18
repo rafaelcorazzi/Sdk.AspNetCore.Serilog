@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{292F40D8-2FD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdk.AspNetCore.Serilog", "src\Sdk.AspNetCore.Serilog\Sdk.AspNetCore.Serilog.csproj", "{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{30DD0685-B71A-44C5-B4B3-DD47F8EDAF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdk.AspNetCore.Serilog.Test", "test\Sdk.AspNetCore.Serilog.Test\Sdk.AspNetCore.Serilog.Test.csproj", "{C91636E6-E8F0-41F3-AB85-C7A454E9ECE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C91636E6-E8F0-41F3-AB85-C7A454E9ECE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91636E6-E8F0-41F3-AB85-C7A454E9ECE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91636E6-E8F0-41F3-AB85-C7A454E9ECE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91636E6-E8F0-41F3-AB85-C7A454E9ECE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E} = {292F40D8-2FDF-4950-BB96-78A088CFE9AA}
+		{C91636E6-E8F0-41F3-AB85-C7A454E9ECE0} = {30DD0685-B71A-44C5-B4B3-DD47F8EDAF11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3930BA65-AAE3-416A-BB45-7E659A1C8CC3}
