@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{292F40D8-2FDF-4950-BB96-78A088CFE9AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdk.AspNetCore.Serilog", "src\Sdk.AspNetCore.Serilog\Sdk.AspNetCore.Serilog.csproj", "{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE7949D3-6D60-45C4-A9FD-399B7EEFFB6E} = {292F40D8-2FDF-4950-BB96-78A088CFE9AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3930BA65-AAE3-416A-BB45-7E659A1C8CC3}
+	EndGlobalSection
+EndGlobal
